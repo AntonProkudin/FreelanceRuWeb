@@ -1,0 +1,102 @@
+.MuiCardHeader-title {
+    color: #F8F6F0
+}
+.MuiTypography-root.MuiCardHeader-subheader {
+    color: #F8F6F0
+}
+.MuiTreeItem-iconContainer {
+    color: #00BA78
+}
+.MuiTreeItem-label {
+    color: #F8F6F0
+}
+MuiSelect-select.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    background-color: #F8F6F0;
+}
+#select {
+    background-color: #272727;
+    color:#fff
+}
+#select:hover {
+    border-color: #272727
+}
+.MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-list {
+    background-color: #272727;
+    color: #fff;
+}
+.Mui-focused{
+    border-color:#00BA78
+}
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiSelect-icon.MuiSelect-iconOutlined.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon{
+    color:#00BA78
+}
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiSelect-icon.MuiSelect-iconOutlined.MuiSelect-iconOpen.css-bpeome-MuiSvgIcon-root-MuiSelect-icon {
+    color: #00BA78
+}
+.Mui-selected {
+    text-decoration-color: #00BA78;
+    background-color: #00BA78;
+    color: #00BA78
+}
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.css-9392xa-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root:hover{
+    border-color:#00BA78
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    background-color:#242424;
+    color:#F8F6F0
+}
+
+.input-file {
+    padding:10px;
+    position: relative;
+    display: inline-block;
+}
+
+.input-file span {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    font-size: 14px;
+    vertical-align: middle;
+    color: rgb(255 255 255);
+    text-align: center;
+    border-radius: 4px;
+    background-color: #419152;
+    line-height: 22px;
+    height: 40px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+    transition: background-color 0.2s;
+}
+
+.input-file input[type=file] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+/* Focus */
+.input-file input[type=file]:focus + span {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* Hover/active */
+.input-file:hover span {
+    background-color: #59be6e;
+}
+
+.input-file:active span {
+    background-color: #2E703A;
+}
+
+/* Disabled */
+.input-file input[type=file]:disabled + span {
+    background-color: #eee;
+}
